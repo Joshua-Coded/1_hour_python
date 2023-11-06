@@ -39,13 +39,14 @@
 # solution:
 
 #ask the user to input miles and assign it to a mile variable
-miles = input('Enter miles ')
+# miles = input('Enter miles ')
 
 # convert from string to integer
-miles = int(miles)
+# miles = int(miles)
 
 # perform calculation by multiplying 1.680943 times miles
-kilometers = miles * 1.60943
+# kilometers = miles * 1.60943
 
 # print results using format()
-print("{} miles equals {} kilometers".format(miles, kilometers))
+# print("{} miles equals {} kilometers".format(miles, kilometers))
+
