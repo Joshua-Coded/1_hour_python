@@ -83,18 +83,20 @@
 # all others -> not important
 
 # receive age and store in age
-age = eval(input("Enter age: "))
+# age = eval(input("Enter age: "))
 
 # if age is both greater than or equals to 1 and less than or equal to 18 important
-if (age >= 18) and (age <= 18):
-    print("Important Birthday")
+# if (age >= 18) and (age <= 18):
+    # print("Important Birthday")
 # and : if both condition are true it returns true
-elif (age == 21 ) or (age == 50):
-    print("Important Birthday")
+# elif (age == 21 ) or (age == 50):
+    # print("Important Birthday")
     
 # or : if either condition is false it returns false
-elif not (age < 65):
-    print("Important Birthday")
+# elif not (age < 65):
+    # print("Important Birthday")
 # not : covert true condition into false condition
-else:
-    print("sorry not Important Birthday")
+# else:
+    # print("sorry not Important Birthday")
+
+
