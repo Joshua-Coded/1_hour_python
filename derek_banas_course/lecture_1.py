@@ -56,21 +56,45 @@
 # 5 * 6 = 30
 
 # store the user input of 2 numbers and the operator
-num1, operator, num2 = input('Enter Calculation').split()
+# num1, operator, num2 = input('Enter Calculation').split()
 
 # convert the strings into integers
-num1 = int(num1)
-num2 = int(num2)
+# num1 = int(num1)
+# num2 = int(num2)
 
 # if  + then we need to provide output based on addition
 
-if operator == "+":
-    print("{} + {} = {}".format(num1, num2, num1 + num2))
-elif operator == "-":
-    print("{} - {} = {}".format(num1, num2, num1 - num2))
-elif operator == "*":
-    print("{} * {} = {}".format(num1, num2, num1 * num2))
-elif operator == "/":
-    print("{} / {} = {}".format(num1, num2, num1 / num2))
+# if operator == "+":
+#     print("{} + {} = {}".format(num1, num2, num1 + num2))
+# elif operator == "-":
+#     print("{} - {} = {}".format(num1, num2, num1 - num2))
+# elif operator == "*":
+#     print("{} * {} = {}".format(num1, num2, num1 * num2))
+# elif operator == "/":
+#     print("{} / {} = {}".format(num1, num2, num1 / num2))
+# else:
+#     print("use either + - * / next time")
+
+
+# ------------------------- 
+# We will provide different output based on age
+# 1 - 18 -> important
+# 21 - 50 -> important
+# all others -> not important
+
+# receive age and store in age
+age = eval(input("Enter age: "))
+
+# if age is both greater than or equals to 1 and less than or equal to 18 important
+if (age >= 18) and (age <= 18):
+    print("Important Birthday")
+# and : if both condition are true it returns true
+elif (age == 21 ) or (age == 50):
+    print("Important Birthday")
+    
+# or : if either condition is false it returns false
+elif not (age < 65):
+    print("Important Birthday")
+# not : covert true condition into false condition
 else:
-    print("use either + - * / next time")
+    print("sorry not Important Birthday")
