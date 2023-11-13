@@ -1,6 +1,7 @@
 import random
 import datetime
 import calendar
+import os
 
 from my_module import find_index
 
@@ -14,3 +15,5 @@ print(random_course)
 
 todays = datetime.date.today()
 print(todays)
+
+print(os.getcwd())
