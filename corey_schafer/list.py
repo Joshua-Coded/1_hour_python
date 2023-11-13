@@ -1,5 +1,5 @@
 courses = ['history', 'maths', ' physics']
-courses_2 = ["science", "art"]
+# courses_2 = ["science", "art"]
 # print(len(courses))
 # print(courses[0])
 # print(courses[0:3])
@@ -21,5 +21,6 @@ courses_2 = ["science", "art"]
 
 # sorting list
 # // reversed methods
-courses.reverse()
-print(courses)
+# courses.reverse()
+# print(courses)
+
