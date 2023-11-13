@@ -1,5 +1,5 @@
-import my_module as mm
+from my_module import find_index
 
 courses = ['math', 'css', 'c++', 'python', 'java']
-index = mm.find_index(courses, 'css')
+index = find_index(courses, 'css')
 print(index)
