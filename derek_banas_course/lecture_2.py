@@ -103,5 +103,16 @@
 
 # make sure  the right number are printed
 
+
 # print spaces 
 #end=''
+
+# print newline after each row is printed
+
+# that spaces is decremented by 1 each time
+
+# that hashes is incremented by 2 each time
+
+# decrement tree height each time to jump  out the loop
+
+# print the spaces  before the stump and then the hash
