@@ -40,11 +40,68 @@
 # print("Investment after 10 years: {:.2f}".format(money))
 
 
-import random
+# import random
 
-rand_num = random.randrange(1, 61)
-i = 1
-while (i != rand_num):
-    i = i + 1
+# rand_num = random.randrange(1, 61)
+# i = 1
+# while (i != rand_num):
+#     i = i + 1
 
-print("the random value is : ", rand_num)
+# print("the random value is : ", rand_num)
+
+# i = 1
+
+# while i <= 20:
+#     if (i % 2) == 0:
+#         i += 1
+#         continue
+    
+#     if i == 15:
+#         break
+    
+#     print("Odd : ", i)
+    
+#     i += 1  
+
+
+
+""" How tall is the tree : 5
+
+ print out the tree
+
+    #
+    ###
+    ####
+
+ use 1 while loop and 3 for loops iteration
+ 4 spaces and 1 hash
+ 3 spaces and 3 hashes
+ 2 spaces and 5 hashes
+ 1 space and  7 spaces
+ 0 space and 9 hashes
+
+ Need to Do
+ decrement spaces by 1 each time  through the loop
+ increment hashes by 2 each time through
+ save spaces to the  stump by calculating  tree height - 1
+ decrement from tree height untill equals 0
+ print spaces and then hashes for each row
+ print stump spaces  and then 1 hash
+
+"""
+# Get the number of rows for the tree
+
+
+# convert into an integer
+
+
+# get the starting spaces for the  top of the tree
+
+# there is one hash to start that will be incremented
+
+# save the stump till later
+
+# make sure  the right number are printed
+
+# print spaces 
+#end=''
