@@ -52,7 +52,7 @@ secret_string = " "
 # cycle through each character  in the string
 for char in norm_string:
 #store the character code in a new string
-    secret_string += str(ord(char))
+    secret_string += str(ord(char) - 23)
 # print  "secret message"
 print("secret message", secret_string)
 # cycle through each character code 2 time by incrementing by 2  each time
@@ -63,6 +63,6 @@ for i in range(0, len(secret_string)-1, 2):
 # get the 1st and 2nd  for the 2  digit number
     char_code  = secret_string[i] + secret_string[i+1]
 
-    norm_string += chr(int(char_code))
+    norm_string += chr(int(char_code) + 23)
     
-print("Original secret string: ", secret_string)
+print("Original secret string: ", norm_string)
